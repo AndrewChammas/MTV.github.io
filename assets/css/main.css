@@ -14,7 +14,7 @@ code, del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var, b,
 u, i, center, dl, dt, dd, ol, ul, li, fieldset,
 form, label, legend, table, caption, tbody,
-tfoot, thead, tr, th, td, article, aside,
+tfoot, thead, tr, th, td, r, article, aside,
 canvas, details, embed, figure, figcaption,
 footer, header, hgroup, menu, nav, output, ruby,
 section, summary, time, mark, audio, video {
@@ -2773,6 +2773,7 @@ input, select, textarea {
 			}
 
 		table td {
+			font-size: 0.9em;
 			padding: 0.75em 0.75em;
 		}
 
@@ -2782,6 +2783,15 @@ input, select, textarea {
 			font-weight: 300;
 			padding: 0 0.75em 0.75em 0.75em;
 			text-align: left;
+		}
+
+		table .rotate {
+			font: bold 20px Sans-Serif;
+  			letter-spacing: 3px;
+  			text-transform: uppercase;
+			padding: 0%;
+		
+			
 		}
 
 		table thead {
@@ -4178,3 +4188,27 @@ body.is-touch #banner2 {
 					}
 
 	}
+	.rotate {
+		text-align: left;
+		vertical-align: middle;
+		white-space: nowrap;
+		transform-origin: center;
+		column-width: 0px;
+		transform: rotate(-90deg);
+		
+		/* Legacy vendor prefixes that you probably don't need... */
+		/* Safari */
+		-webkit-transform: rotate(-90deg);
+		/* Firefox */
+		-moz-transform: rotate(-90deg);
+	  
+		/* IE */
+		-ms-transform: rotate(-90deg);
+	  
+		/* Opera */
+		-o-transform: rotate(-90deg);
+	  
+		/* Internet Explorer */
+		filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+	  
+	  }
