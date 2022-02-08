@@ -2789,7 +2789,7 @@ input, select, textarea {
 
 		table .rotate {
 			font: bold 20px Sans-Serif;
-  			letter-spacing: 3px;
+  			letter-spacing: 2px;
   			text-transform: uppercase;
 			padding: 0%;
 		
@@ -3546,7 +3546,7 @@ input, select, textarea {
 #banner2 {
 	background-attachment: fixed;
 	background-color: #272833;
-	background-image: url("../../images/landing.png");
+	background-image: url("../../images/rocketengine.webp");
 	background-position: center center;
 	background-size: cover;
 	/*box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.05);*/
