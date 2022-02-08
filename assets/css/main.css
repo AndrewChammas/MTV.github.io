@@ -2773,16 +2773,18 @@ input, select, textarea {
 			}
 
 		table td {
-			font-size: 0.9em;
-			padding: 0.75em 0.75em;
+			font-size: 0.7em;
+			padding: 0em 0em;
+			border-left: 1px solid rgba(255, 255, 255, 0.3);
+			border-right: 1px solid rgba(255, 255, 255, 0.3);
 		}
 
 		table th {
 			color: #ffffff;
 			font-size: 0.9em;
 			font-weight: 300;
-			padding: 0 0.75em 0.75em 0.75em;
-			text-align: left;
+			padding: 0 0.2em 0.4em 0.4em;
+			text-align: middle;
 		}
 
 		table .rotate {
