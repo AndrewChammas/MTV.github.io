@@ -2601,6 +2601,7 @@ input, select, textarea {
 					padding-top: 0;
 				}
 
+
 	dl {
 		margin: 0 0 2em 0;
 	}
@@ -2809,13 +2810,15 @@ input, select, textarea {
 		}
 
 			table.alt tbody tr td {
-				border: solid 1px rgba(255, 255, 255, 0.3);
+				padding: 1em;
+				border-right: 0;
 				border-left-width: 0;
-				border-top-width: 0;
+				border-bottom: solid 1px;
+				font-size: 1.3em;
 			}
 
 				table.alt tbody tr td:first-child {
-					border-left-width: 1px;
+					border-left-width: 0px;
 				}
 
 			table.alt tbody tr:first-child td {
@@ -4275,3 +4278,13 @@ body.is-touch #banner3 {
 		filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 	  
 	  }
+	  .video-bg {
+		position: absolute;
+		z-index: -1;
+		top: 50%;
+		left: 50%;
+		min-width: 100%;
+		min-height: 100%;
+		transform: translate(-50%,-50%);
+		
+	}
