@@ -3663,17 +3663,149 @@ input, select, textarea {
 			#banner3 .content header h2 {
 				font-size: 2.5em;
 				margin: 0;
+				background-attachment: fixed;
 			}
 
-			#banner2 .content header p {
+			#banner3 .content header p {
 				margin: 0.5em 0 0 0;
 				top: 0;
 			}
+			body.is-touch #banner3 {
+				background-attachment: scroll;
+			}
 
-body.is-touch #banner3 {
-	background-attachment: scroll;
+/* Banner4 */
+
+#banner4 {
+	background-attachment: fixed;
+	background-color: #000000;
+	background-image: url("../../images/Blimptrasnparent.png");
+	background-position: center center;
+	background-size: cover;
+	/*box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.05);*/
+	min-height: 100vh;
+	position: relative;
+	text-align: start;
+	z-index: 21;
 }
 
+	#banner4:before {
+		content: '';
+		display: inline-block;
+		height: 100vh;
+		vertical-align: middle;
+		width: 1%;
+	}
+
+	#banner4:after {
+		/*background-image: -moz-linear-gradient(top, rgba(23, 24, 32, 0.05), rgba(23, 24, 32, 0.05)), url("images/overlay.png");;
+		background-image: -webkit-linear-gradient(top, rgba(23, 24, 32, 0.05), rgba(23, 24, 32, 0.05)), url("images/overlay.png");;
+		background-image: -ms-linear-gradient(top, rgba(23, 24, 32, 0.05), rgba(23, 24, 32, 0.05)), url("images/overlay.png");;
+		background-image: linear-gradient(top, rgba(23, 24, 32, 0.05), rgba(23, 24, 32, 0.05)), url("images/overlay.png");;*/
+		content: '';
+		display: block;
+		height: 100%;
+		left: 0;
+		position: absolute;
+		top: 0;
+		width: 100%;
+	}
+
+	#banner4 .content {
+		display: inline-block;
+		margin-right: 1%;
+		max-width: 95%;
+		padding: 6em;
+		position: relative;
+		text-align: left;
+		vertical-align: bottom;
+		z-index: 1;
+	}
+
+		#banner4 .content header {
+			display: inline-block;
+			vertical-align: middle;
+		}
+
+			#banner4 .content header h2 {
+				font-size: 2.5em;
+				margin: 0;
+				background-attachment: fixed;
+			}
+
+			#banner4 .content header p {
+				margin: 0.5em 0 0 0;
+				top: 0;
+			}
+			body.is-touch #banner4 {
+				background-attachment: scroll;
+			}
+/* Banner5 */
+
+#banner5 {
+	background-attachment: fixed;
+	background-color: #000000;
+	background-image: url("../../images/orbitiertransparent.png");
+	background-position: center center;
+	background-size: cover;
+	/*box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.05);*/
+	min-height: 100vh;
+	position: relative;
+	text-align: start;
+	z-index: 21;
+}
+
+	#banner5:before {
+		content: '';
+		display: inline-block;
+		height: 100vh;
+		vertical-align: middle;
+		width: 1%;
+	}
+
+	#banner5:after {
+		/*background-image: -moz-linear-gradient(top, rgba(23, 24, 32, 0.05), rgba(23, 24, 32, 0.05)), url("images/overlay.png");;
+		background-image: -webkit-linear-gradient(top, rgba(23, 24, 32, 0.05), rgba(23, 24, 32, 0.05)), url("images/overlay.png");;
+		background-image: -ms-linear-gradient(top, rgba(23, 24, 32, 0.05), rgba(23, 24, 32, 0.05)), url("images/overlay.png");;
+		background-image: linear-gradient(top, rgba(23, 24, 32, 0.05), rgba(23, 24, 32, 0.05)), url("images/overlay.png");;*/
+		content: '';
+		display: block;
+		height: 100%;
+		left: 0;
+		position: absolute;
+		top: 0;
+		width: 100%;
+	}
+
+	#banner5 .content {
+		display: inline-block;
+		margin-right: 1%;
+		max-width: 95%;
+		padding: 6em;
+		position: relative;
+		text-align: left;
+		vertical-align: bottom;
+		z-index: 1;
+	}
+
+		#banner5 .content header {
+			display: inline-block;
+			vertical-align: middle;
+		}
+
+			#banner5 .content header h2 {
+				font-size: 2.5em;
+				margin: 0;
+				background-attachment: fixed;
+			}
+
+			#banner5 .content header p {
+				margin: 0.5em 0 0 0;
+				top: 0;
+			}
+			body.is-touch #banner5 {
+				background-attachment: scroll;
+			}
 /* Footer */
 
 	#footer {
