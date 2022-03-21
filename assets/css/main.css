@@ -3606,7 +3606,7 @@ input, select, textarea {
 #banner3 {
 	background-attachment: fixed;
 	background-color: #000000;
-	background-image: url("../../images/landertransparent.png");
+	background-image: url("../../images/Lander.png");
 	background-position: center center;
 	background-size: cover;
 	/*box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.05);*/
@@ -3739,7 +3739,7 @@ input, select, textarea {
 #banner5 {
 	background-attachment: fixed;
 	background-color: #000000;
-	background-image: url("../../images/orbitiertransparent.png");
+	background-image: url("../../images/Satellite.PNG");
 	background-position: center center;
 	background-size: cover;
 	/*box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.05);*/
